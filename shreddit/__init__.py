@@ -19,4 +19,5 @@ default_config = {"username": None,
                   "clear_vote": False,
                   "replacement_format": "random",
                   "edit_only": False,
+                  "item_edit_cooldown": 5,
                   "batch_cooldown": 10}

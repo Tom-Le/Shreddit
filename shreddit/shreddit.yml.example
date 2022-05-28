@@ -75,6 +75,11 @@ debug: DEBUG
 # replacement_format == random
 wordlist: []
 
+# Individual item cooldown
+# This controls how long (in seconds) to wait between each individual edit.
+# Reddit added a rate limit on editing comments: https://redd.it/miqx0k
+item_edit_cooldown: 5
+
 # Batch cooldown
 # This controls how long (in seconds) to wait between each set of 1000 deletions.
 batch_cooldown: 10
